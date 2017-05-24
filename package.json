@@ -12,7 +12,7 @@
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
     "build": "tsc -p tsconfig.json",
-    "lint": "tslint '{__tests__/**/*.test.ts,src/**/*.ts}' -c tslint.json -p tsconfig.json",
+    "lint": "tslint 'src/**/*.ts' -c tslint.json -p tsconfig.json",
     "test": "jest",
     "docs": "typedoc --theme minimal --out docs src/index.ts",
     "docs:serve": "npm run docs && serve docs",
@@ -72,7 +72,7 @@
     }
   },
   "lint-staged": {
-    "{__tests__/**/*.test.ts,src/**/*.ts}": [
+    "src/**/*.ts": [
       "tslint -c tslint.json -p tsconfig.json --fix",
       "git add"
     ]
