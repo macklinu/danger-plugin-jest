@@ -12,7 +12,7 @@
 
 This Danger plugin relies on modifying your Jest configuration.
 
-Install [jest-json-reporter](https://github.com/Vall3y/jest-json-reporter)
+Install [jest-json-reporter](https://github.com/Vall3y/jest-json-reporter):
 
 ```sh
 yarn add jest-json-reporter --dev
@@ -62,7 +62,7 @@ import jest from 'danger-plugin-jest'
 jest()
 ```
 
-See the [`src/index.ts`](https://github.com/macklinu/danger-plugin-jest/blob/master/src/index.ts) for more details.
+See [`src/index.ts`](https://github.com/macklinu/danger-plugin-jest/blob/master/src/index.ts) for more details.
 
 ## Changelog
 
