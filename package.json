@@ -72,7 +72,7 @@
     }
   },
   "lint-staged": {
-    "{__tests__/**/*.test.ts,src/**/*.ts}": [
+    "src/**/*.ts": [
       "tslint -c tslint.json -p tsconfig.json --fix",
       "git add"
     ]
