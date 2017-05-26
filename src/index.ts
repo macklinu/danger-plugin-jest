@@ -2,7 +2,7 @@ import * as fs from 'fs'
 
 import { TestFailureFormatter } from './TestFailureFormatter'
 
-interface IPluginConfig {
+export interface IPluginConfig {
   testResultsJsonPath?: string
 }
 

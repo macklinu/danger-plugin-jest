@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist",
     "lib": ["es5", "es2015"],
     "module": "commonjs",
     "moduleResolution": "node",
@@ -10,7 +12,6 @@
     "noUnusedParameters": true,
     "outDir": "dist",
     "pretty": true,
-    "removeComments": true,
     "sourceMap": false,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
@@ -18,10 +19,10 @@
     "types": ["node"]
   },
   "include": [
-    "src/**/*"
+    "src/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-    "src/__tests__/**/*"
+    "src/**/*.test.ts"
   ]
 }
