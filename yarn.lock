@@ -928,9 +928,9 @@ cz-conventional-changelog@^2.0.0:
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
 
-danger@^0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/danger/-/danger-0.19.0.tgz#0aac77e8569803beeec2edcb931c030fa0400469"
+danger@0.21.2:
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/danger/-/danger-0.21.2.tgz#c14e3d2fc1f820ec2afad353433046f7a917801c"
   dependencies:
     babel-polyfill "^6.20.0"
     chalk "^1.1.1"
@@ -1764,13 +1764,9 @@ iconv-lite@0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
 
-iconv-lite@0.4.15:
+iconv-lite@0.4.15, iconv-lite@~0.4.13:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
-
-iconv-lite@~0.4.13:
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.17.tgz#4fdaa3b38acbc2c031b045d0edcdfe1ecab18c8d"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
