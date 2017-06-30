@@ -928,7 +928,7 @@ cz-conventional-changelog@^2.0.0:
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
 
-danger@0.21.2:
+danger@^0.21.2:
   version "0.21.2"
   resolved "https://registry.yarnpkg.com/danger/-/danger-0.21.2.tgz#c14e3d2fc1f820ec2afad353433046f7a917801c"
   dependencies:
