@@ -11,26 +11,10 @@
 
 ### Setup Jest
 
-This Danger plugin relies on modifying your Jest configuration.
+This Danger plugin relies on modifying your Jest configuration slightly on CI to also output a JSON file of the results.
 
-Install [jest-json-reporter](https://github.com/Vall3y/jest-json-reporter):
-
-```sh
-yarn add jest-json-reporter --dev
-```
-
-Modify your `package.json` to process test results with jest-json-reporter. You may optionally set the output path of the JSON test results using the `jestJsonReporter.outputFile` path (which otherwise defaults to `./test-results.json`):
-
-```json
-{
-  "jest": {
-    "testResultsProcessor": "jest-json-reporter"
-  },
-  "jestJsonReporter": {
-    "outputFile": "tests/results.json"
-  }
-}
-```
+You need to make the `yarn jest` command include: `--outputFile test-results.json --json`. This will run your tests 
+like normal, but will also create a file with the full test results after.
 
 > You may also want to add the JSON output file to your `.gitignore`, since it doesn't need to be checked into source control.
 
@@ -42,25 +26,17 @@ Install this Danger plugin:
 yarn add danger-plugin-jest --dev
 ```
 
-If you set `jestJsonReporter.outputFile` in your `package.json`, make sure that `testResultsJsonPath` matches that path:
+By default, this package will assume you've set the filename as `test-results.json`, but you can use any path.
 
 ```js
 // dangerfile.js
 import path from 'path'
 import jest from 'danger-plugin-jest'
 
-jest({
-  testResultsJsonPath: path.resolve(__dirname, 'tests/results.json'),
-})
-```
-
-If you _did not_ change the `jestJsonReporter.outputFile` path in your `package.json`, you can just do the following:
-
-```js
-// dangerfile.js
-import jest from 'danger-plugin-jest'
-
+// Default
 jest()
+// Custom path
+jest({ testResultsJsonPath: path.resolve(__dirname, 'tests/results.json') })
 ```
 
 See [`src/index.ts`](https://github.com/macklinu/danger-plugin-jest/blob/master/src/index.ts) for more details.
