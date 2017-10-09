@@ -1,4 +1,3 @@
-
 export interface ISnapshot {
   added: number
   didUpdate: boolean
@@ -50,6 +49,9 @@ export interface IFileTestResult {
   testResults: IInsideFileTestResults[]
   sourceMaps: {}
   skipped: boolean
+  // These are from IAssertionResult
+  status?: string
+  title?: string
 }
 
 export interface IJestTestResults {
@@ -66,5 +68,38 @@ export interface IJestTestResults {
   startTime: number
   success: boolean
   testResults: IFileTestResult[]
+  wasInterrupted: boolean
+}
+
+export interface IAssertionResult {
+  failureMessages: string[]
+  status: string
+  title: string
+}
+
+export interface ITestResult {
+  assertionResults: IAssertionResult[]
+  endTime: any
+  message: string
+  name: string
+  startTime: any
+  status: string
+  summary: string
+}
+
+export interface IJestTestOldResults {
+  numFailedTestSuites: number
+  numFailedTests: number
+  numPassedTestSuites: number
+  numPassedTests: number
+  numPendingTestSuites: number
+  numPendingTests: number
+  numRuntimeErrorTestSuites: number
+  numTotalTestSuites: number
+  numTotalTests: number
+  snapshot: ISnapshot
+  startTime: number
+  success: boolean
+  testResults: ITestResult[]
   wasInterrupted: boolean
 }
