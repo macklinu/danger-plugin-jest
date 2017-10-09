@@ -1,3 +1,3 @@
-import jest from "./src";
+import jest from "./dist";
 
 jest();

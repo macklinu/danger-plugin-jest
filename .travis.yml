@@ -18,6 +18,7 @@ script:
   - yarn add jest
   - yarn run test -- --coverage --outputFile test-results.json --json
   - yarn run lint
+  - yarn run build
   - yarn run danger
   - rm -f test-results.json
 after_script:
