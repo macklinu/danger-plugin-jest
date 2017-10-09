@@ -75,3 +75,5 @@ dist/
 !.vscode/extensions.json
 
 # End of https://www.gitignore.io/api/node,visualstudiocode
+
+test-results.json
