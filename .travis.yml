@@ -6,14 +6,19 @@ cache:
 notifications:
   email: false
 node_js:
-  - '7'
   - '6'
-  - '4'
 before_install:
   - yarn global add greenkeeper-lockfile@1
 before_script:
   - greenkeeper-lockfile-update
   - npm prune
+script:
+  - yarn add jest
+  - yarn run test -- --coverage --outputFile test-results.json --json
+  - yarn run lint
+  - yarn run build
+  - yarn run danger
+  - rm -f test-results.json
 after_script:
   - greenkeeper-lockfile-upload
 after_success:
