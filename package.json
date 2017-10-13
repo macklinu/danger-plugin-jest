@@ -36,6 +36,9 @@
     "url": "https://github.com/macklinu/danger-plugin-jest/issues"
   },
   "homepage": "https://github.com/macklinu/danger-plugin-jest#readme",
+  "dependencies": {
+    "strip-ansi": "^4.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^19.2.3",
     "@types/node": "^7.0.22",
