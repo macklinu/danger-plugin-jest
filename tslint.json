@@ -1,9 +1,3 @@
 {
-  "extends": [
-    "tslint:recommended"
-  ],
-  "rules": {
-    "semicolon": [true, "never"],
-    "quotemark": [true, "single"]
-  }
+  "extends": ["tslint:recommended", "tslint-config-prettier"]
 }

@@ -43,34 +43,31 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_circle.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_circle.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "being found when looking for CI"
-          ],
+          "ancestorTitles": ["being found when looking for CI"],
           "duration": 9,
           "failureMessages": [],
-          "fullName": "being found when looking for CI finds Circle with the right ENV",
+          "fullName":
+            "being found when looking for CI finds Circle with the right ENV",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "finds Circle with the right ENV"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 2,
           "failureMessages": [],
-          "fullName": ".isCI validates when all Circle environment vars are set",
+          "fullName":
+            ".isCI validates when all Circle environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all Circle environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 2,
           "failureMessages": [],
           "fullName": ".isCI does not validate without josh",
@@ -79,20 +76,17 @@
           "title": "does not validate without josh"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR validates when all circle environment vars are set",
+          "fullName":
+            ".isPR validates when all circle environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all circle environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate outside of circle",
@@ -101,53 +95,47 @@
           "title": "does not validate outside of circle"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when CIRCLE_CI_API_TOKEN is missing",
+          "fullName":
+            ".isPR does not validate when CIRCLE_CI_API_TOKEN is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when CIRCLE_CI_API_TOKEN is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when CIRCLE_PROJECT_USERNAME is missing",
+          "fullName":
+            ".isPR does not validate when CIRCLE_PROJECT_USERNAME is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when CIRCLE_PROJECT_USERNAME is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when CIRCLE_PROJECT_REPONAME is missing",
+          "fullName":
+            ".isPR does not validate when CIRCLE_PROJECT_REPONAME is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when CIRCLE_PROJECT_REPONAME is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when CIRCLE_BUILD_NUM is missing",
+          "fullName":
+            ".isPR does not validate when CIRCLE_BUILD_NUM is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when CIRCLE_BUILD_NUM is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR needs to have a PR number",
@@ -156,9 +144,7 @@
           "title": "needs to have a PR number"
         },
         {
-          "ancestorTitles": [
-            ".pullReuestID"
-          ],
+          "ancestorTitles": [".pullReuestID"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".pullReuestID pulls it out of the env",
@@ -167,9 +153,7 @@
           "title": "pulls it out of the env"
         },
         {
-          "ancestorTitles": [
-            ".pullReuestID"
-          ],
+          "ancestorTitles": [".pullReuestID"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".pullReuestID can derive it from PR Url",
@@ -178,9 +162,7 @@
           "title": "can derive it from PR Url"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".repoSlug derives it from the PR Url",
@@ -210,12 +192,11 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_github_git.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_github_git.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 64,
           "failureMessages": [],
           "fullName": "the dangerfile gitDSL sets the modified/created/deleted",
@@ -224,75 +205,67 @@
           "title": "sets the modified/created/deleted"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 19,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL shows the diff for a specific file",
+          "fullName":
+            "the dangerfile gitDSL shows the diff for a specific file",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "shows the diff for a specific file"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 11,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL should include `before` text content of the file",
+          "fullName":
+            "the dangerfile gitDSL should include `before` text content of the file",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should include `before` text content of the file"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 14,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL should include `after` text content of the file",
+          "fullName":
+            "the dangerfile gitDSL should include `after` text content of the file",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should include `after` text content of the file"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 9,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL should include `added` text content of the file",
+          "fullName":
+            "the dangerfile gitDSL should include `added` text content of the file",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should include `added` text content of the file"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 12,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL should include `removed` text content of the file",
+          "fullName":
+            "the dangerfile gitDSL should include `removed` text content of the file",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should include `removed` text content of the file"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 7,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL resolves to `null` for files not in modified_files",
+          "fullName":
+            "the dangerfile gitDSL resolves to `null` for files not in modified_files",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "resolves to `null` for files not in modified_files"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL"],
           "duration": 28,
           "failureMessages": [],
           "fullName": "the dangerfile gitDSL sets up commit data correctly",
@@ -301,61 +274,51 @@
           "title": "sets up commit data correctly"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL",
-            "JSONPatchForFile"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL", "JSONPatchForFile"],
           "duration": 11,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL JSONPatchForFile returns a null for files not in the modified_files",
+          "fullName":
+            "the dangerfile gitDSL JSONPatchForFile returns a null for files not in the modified_files",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "returns a null for files not in the modified_files"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL",
-            "JSONPatchForFile"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL", "JSONPatchForFile"],
           "duration": 13,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL JSONPatchForFile handles showing a patch for two different diff files",
+          "fullName":
+            "the dangerfile gitDSL JSONPatchForFile handles showing a patch for two different diff files",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "handles showing a patch for two different diff files"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL",
-            "JSONDiffForFile"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL", "JSONDiffForFile"],
           "duration": 8,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL JSONDiffForFile returns an empty object for files not in the modified_files",
+          "fullName":
+            "the dangerfile gitDSL JSONDiffForFile returns an empty object for files not in the modified_files",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "returns an empty object for files not in the modified_files"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL",
-            "JSONDiffForFile"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL", "JSONDiffForFile"],
           "duration": 12,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL JSONDiffForFile handles showing a patch for two different diff files",
+          "fullName":
+            "the dangerfile gitDSL JSONDiffForFile handles showing a patch for two different diff files",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "handles showing a patch for two different diff files"
         },
         {
-          "ancestorTitles": [
-            "the dangerfile gitDSL",
-            "JSONDiffForFile"
-          ],
+          "ancestorTitles": ["the dangerfile gitDSL", "JSONDiffForFile"],
           "duration": 13,
           "failureMessages": [],
-          "fullName": "the dangerfile gitDSL JSONDiffForFile handles a package.json change elegantly",
+          "fullName":
+            "the dangerfile gitDSL JSONDiffForFile handles a package.json change elegantly",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "handles a package.json change elegantly"
@@ -382,23 +345,21 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_github_api.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_github_api.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 23,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should return the correct review title from getReviewInfo",
+          "fullName":
+            "getPlatformDSLRepresentation should return the correct review title from getReviewInfo",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should return the correct review title from getReviewInfo"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 4,
           "failureMessages": [],
           "fullName": "getPlatformDSLRepresentation should get the issue label",
@@ -407,20 +368,17 @@
           "title": "should get the issue label"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 8,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should get the commits of the pull request",
+          "fullName":
+            "getPlatformDSLRepresentation should get the commits of the pull request",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should get the commits of the pull request"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 8,
           "failureMessages": [],
           "fullName": "getPlatformDSLRepresentation should get the reviews",
@@ -429,23 +387,21 @@
           "title": "should get the reviews"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 5,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should get the reviewer requests",
+          "fullName":
+            "getPlatformDSLRepresentation should get the reviewer requests",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should get the reviewer requests"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 6,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should get the pull request informations",
+          "fullName":
+            "getPlatformDSLRepresentation should get the pull request informations",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should get the pull request informations"
@@ -454,15 +410,15 @@
           "ancestorTitles": [],
           "duration": 9,
           "failureMessages": [],
-          "fullName": "fileContents expects to grab PR JSON and pull out a file API call",
+          "fullName":
+            "fileContents expects to grab PR JSON and pull out a file API call",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "fileContents expects to grab PR JSON and pull out a file API call"
+          "title":
+            "fileContents expects to grab PR JSON and pull out a file API call"
         },
         {
-          "ancestorTitles": [
-            "API testing"
-          ],
+          "ancestorTitles": ["API testing"],
           "duration": 3,
           "failureMessages": [],
           "fullName": "API testing getUserInfo",
@@ -471,9 +427,7 @@
           "title": "getUserInfo"
         },
         {
-          "ancestorTitles": [
-            "API testing"
-          ],
+          "ancestorTitles": ["API testing"],
           "duration": 8,
           "failureMessages": [],
           "fullName": "API testing updateCommentWithID",
@@ -482,9 +436,7 @@
           "title": "updateCommentWithID"
         },
         {
-          "ancestorTitles": [
-            "Peril"
-          ],
+          "ancestorTitles": ["Peril"],
           "duration": 3,
           "failureMessages": [],
           "fullName": "Peril Allows setting additional headers",
@@ -514,12 +466,11 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/runner/_tests/_executor.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/runner/_tests/_executor.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "setup"
-          ],
+          "ancestorTitles": ["setup"],
           "duration": 11,
           "failureMessages": [],
           "fullName": "setup gets diff / pr info in setup",
@@ -528,9 +479,7 @@
           "title": "gets diff / pr info in setup"
         },
         {
-          "ancestorTitles": [
-            "setup"
-          ],
+          "ancestorTitles": ["setup"],
           "duration": 8,
           "failureMessages": [],
           "fullName": "setup gets diff / pr info / utils in setup",
@@ -539,9 +488,7 @@
           "title": "gets diff / pr info / utils in setup"
         },
         {
-          "ancestorTitles": [
-            "setup"
-          ],
+          "ancestorTitles": ["setup"],
           "duration": 27,
           "failureMessages": [],
           "fullName": "setup Creates a DangerResults for a raising dangerfile",
@@ -550,9 +497,7 @@
           "title": "Creates a DangerResults for a raising dangerfile"
         },
         {
-          "ancestorTitles": [
-            "setup"
-          ],
+          "ancestorTitles": ["setup"],
           "duration": 9,
           "failureMessages": [],
           "fullName": "setup Deletes a post when there are no messages",
@@ -561,9 +506,7 @@
           "title": "Deletes a post when there are no messages"
         },
         {
-          "ancestorTitles": [
-            "setup"
-          ],
+          "ancestorTitles": ["setup"],
           "duration": 3,
           "failureMessages": [],
           "fullName": "setup Updates or Creates comments for warnings",
@@ -593,12 +536,11 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/runner/templates/_tests/_githubIssueTemplates.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/runner/templates/_tests/_githubIssueTemplates.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "generating messages"
-          ],
+          "ancestorTitles": ["generating messages"],
           "duration": 4,
           "failureMessages": [],
           "fullName": "generating messages shows no tables for empty results",
@@ -607,70 +549,65 @@
           "title": "shows no tables for empty results"
         },
         {
-          "ancestorTitles": [
-            "generating messages"
-          ],
+          "ancestorTitles": ["generating messages"],
           "duration": 2,
           "failureMessages": [],
-          "fullName": "generating messages shows no tables for results without messages",
+          "fullName":
+            "generating messages shows no tables for results without messages",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "shows no tables for results without messages"
         },
         {
-          "ancestorTitles": [
-            "generating messages"
-          ],
+          "ancestorTitles": ["generating messages"],
           "duration": 2,
           "failureMessages": [],
-          "fullName": "generating messages Shows the failing messages in a table",
+          "fullName":
+            "generating messages Shows the failing messages in a table",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "Shows the failing messages in a table"
         },
         {
-          "ancestorTitles": [
-            "generating messages"
-          ],
+          "ancestorTitles": ["generating messages"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "generating messages Shows the warning messages in a table",
+          "fullName":
+            "generating messages Shows the warning messages in a table",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "Shows the warning messages in a table"
         },
         {
-          "ancestorTitles": [
-            "generating messages"
-          ],
+          "ancestorTitles": ["generating messages"],
           "duration": 3,
           "failureMessages": [],
-          "fullName": "generating messages does not break commonmark rules around line breaks",
+          "fullName":
+            "generating messages does not break commonmark rules around line breaks",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not break commonmark rules around line breaks"
         },
         {
-          "ancestorTitles": [
-            "generating messages"
-          ],
+          "ancestorTitles": ["generating messages"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": "generating messages Should include summary on top of message",
+          "fullName":
+            "generating messages Should include summary on top of message",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "Should include summary on top of message"
         },
         {
-          "ancestorTitles": [
-            "generating messages"
-          ],
+          "ancestorTitles": ["generating messages"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "generating messages leaves space between <td>s to allow GitHub to render message content as markdown",
+          "fullName":
+            "generating messages leaves space between <td>s to allow GitHub to render message content as markdown",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "leaves space between <td>s to allow GitHub to render message content as markdown"
+          "title":
+            "leaves space between <td>s to allow GitHub to render message content as markdown"
         }
       ],
       "sourceMaps": {},
@@ -694,13 +631,15 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/platforms/_tests/_platform.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/platforms/_tests/_platform.test.ts",
       "testResults": [
         {
           "ancestorTitles": [],
           "duration": 4,
           "failureMessages": [],
-          "fullName": "should bail if there is no DANGER_GITHUB_API_TOKEN found",
+          "fullName":
+            "should bail if there is no DANGER_GITHUB_API_TOKEN found",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should bail if there is no DANGER_GITHUB_API_TOKEN found"
@@ -727,34 +666,31 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_semaphore.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_semaphore.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "being found when looking for CI"
-          ],
+          "ancestorTitles": ["being found when looking for CI"],
           "duration": 3,
           "failureMessages": [],
-          "fullName": "being found when looking for CI finds Semaphore with the right ENV",
+          "fullName":
+            "being found when looking for CI finds Semaphore with the right ENV",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "finds Semaphore with the right ENV"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isCI validates when all Semaphore environment vars are set",
+          "fullName":
+            ".isCI validates when all Semaphore environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all Semaphore environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isCI does not validate without josh",
@@ -763,20 +699,17 @@
           "title": "does not validate without josh"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR validates when all semaphore environment vars are set",
+          "fullName":
+            ".isPR validates when all semaphore environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all semaphore environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate outside of semaphore",
@@ -785,53 +718,49 @@
           "title": "does not validate outside of semaphore"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when SEMAPHORE_CI_API_TOKEN is missing",
+          "fullName":
+            ".isPR does not validate when SEMAPHORE_CI_API_TOKEN is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when SEMAPHORE_CI_API_TOKEN is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when SEMAPHORE_PROJECT_USERNAME is missing",
+          "fullName":
+            ".isPR does not validate when SEMAPHORE_PROJECT_USERNAME is missing",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "does not validate when SEMAPHORE_PROJECT_USERNAME is missing"
+          "title":
+            "does not validate when SEMAPHORE_PROJECT_USERNAME is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when SEMAPHORE_PROJECT_REPONAME is missing",
+          "fullName":
+            ".isPR does not validate when SEMAPHORE_PROJECT_REPONAME is missing",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "does not validate when SEMAPHORE_PROJECT_REPONAME is missing"
+          "title":
+            "does not validate when SEMAPHORE_PROJECT_REPONAME is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when SEMAPHORE_BUILD_NUM is missing",
+          "fullName":
+            ".isPR does not validate when SEMAPHORE_BUILD_NUM is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when SEMAPHORE_BUILD_NUM is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR needs to have a PR number",
@@ -840,9 +769,7 @@
           "title": "needs to have a PR number"
         },
         {
-          "ancestorTitles": [
-            ".pullRequestID"
-          ],
+          "ancestorTitles": [".pullRequestID"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".pullRequestID pulls it out of the env",
@@ -851,9 +778,7 @@
           "title": "pulls it out of the env"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".repoSlug derives it from the PR Url",
@@ -883,34 +808,32 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_travis.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_travis.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "being found when looking for CI"
-          ],
+          "ancestorTitles": ["being found when looking for CI"],
           "duration": 3,
           "failureMessages": [],
-          "fullName": "being found when looking for CI finds Travis with the right ENV",
+          "fullName":
+            "being found when looking for CI finds Travis with the right ENV",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "finds Travis with the right ENV"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 3,
           "failureMessages": [],
-          "fullName": ".isCI validates when all Travis environment vars are set and Josh K says so",
+          "fullName":
+            ".isCI validates when all Travis environment vars are set and Josh K says so",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "validates when all Travis environment vars are set and Josh K says so"
+          "title":
+            "validates when all Travis environment vars are set and Josh K says so"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isCI does not validate without josh",
@@ -919,20 +842,18 @@
           "title": "does not validate without josh"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR validates when all Travis environment vars are set and Josh K says so",
+          "fullName":
+            ".isPR validates when all Travis environment vars are set and Josh K says so",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "validates when all Travis environment vars are set and Josh K says so"
+          "title":
+            "validates when all Travis environment vars are set and Josh K says so"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate without josh",
@@ -941,31 +862,27 @@
           "title": "does not validate without josh"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when TRAVIS_PULL_REQUEST is missing",
+          "fullName":
+            ".isPR does not validate when TRAVIS_PULL_REQUEST is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when TRAVIS_PULL_REQUEST is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when TRAVIS_REPO_SLUG is missing",
+          "fullName":
+            ".isPR does not validate when TRAVIS_REPO_SLUG is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when TRAVIS_REPO_SLUG is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR needs to have a PR number",
@@ -974,9 +891,7 @@
           "title": "needs to have a PR number"
         },
         {
-          "ancestorTitles": [
-            ".pullRequestID"
-          ],
+          "ancestorTitles": [".pullRequestID"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".pullRequestID pulls it out of the env",
@@ -985,9 +900,7 @@
           "title": "pulls it out of the env"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 2,
           "failureMessages": [],
           "fullName": ".repoSlug pulls it out of the env",
@@ -1017,48 +930,45 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/_tests/_get_ci_source.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/_tests/_get_ci_source.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            ".getCISourceForEnv"
-          ],
+          "ancestorTitles": [".getCISourceForEnv"],
           "duration": 6,
           "failureMessages": [],
-          "fullName": ".getCISourceForEnv returns undefined if nothing is found",
+          "fullName":
+            ".getCISourceForEnv returns undefined if nothing is found",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "returns undefined if nothing is found"
         },
         {
-          "ancestorTitles": [
-            ".getCISourceForEnv"
-          ],
+          "ancestorTitles": [".getCISourceForEnv"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".getCISourceForEnv falls back to the fake if DANGER_FAKE_CI exists",
+          "fullName":
+            ".getCISourceForEnv falls back to the fake if DANGER_FAKE_CI exists",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "falls back to the fake if DANGER_FAKE_CI exists"
         },
         {
-          "ancestorTitles": [
-            ".getCISourceForExternal"
-          ],
+          "ancestorTitles": [".getCISourceForExternal"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": ".getCISourceForExternal should resolve module relatively",
+          "fullName":
+            ".getCISourceForExternal should resolve module relatively",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should resolve module relatively"
         },
         {
-          "ancestorTitles": [
-            ".getCISourceForExternal"
-          ],
+          "ancestorTitles": [".getCISourceForExternal"],
           "duration": 7,
           "failureMessages": [],
-          "fullName": ".getCISourceForExternal should return undefined if module resolution fails",
+          "fullName":
+            ".getCISourceForExternal should return undefined if module resolution fails",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should return undefined if module resolution fails"
@@ -1085,34 +995,31 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_jenkins.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_jenkins.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "being found when looking for CI"
-          ],
+          "ancestorTitles": ["being found when looking for CI"],
           "duration": 3,
           "failureMessages": [],
-          "fullName": "being found when looking for CI finds Jenkins with the right ENV",
+          "fullName":
+            "being found when looking for CI finds Jenkins with the right ENV",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "finds Jenkins with the right ENV"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": ".isCI validates when JENKINS_URL is present in environment",
+          "fullName":
+            ".isCI validates when JENKINS_URL is present in environment",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when JENKINS_URL is present in environment"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 2,
           "failureMessages": [],
           "fullName": ".isCI does not validate without JENKINS_URL",
@@ -1121,31 +1028,27 @@
           "title": "does not validate without JENKINS_URL"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 4,
           "failureMessages": [],
-          "fullName": ".isPR validates when all Jenkins environment variables are set",
+          "fullName":
+            ".isPR validates when all Jenkins environment variables are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all Jenkins environment variables are set"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 2,
           "failureMessages": [],
-          "fullName": ".isPR does not validate with required environment variables",
+          "fullName":
+            ".isPR does not validate with required environment variables",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate with required environment variables"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate when JENKINS_URL is missing",
@@ -1154,9 +1057,7 @@
           "title": "does not validate when JENKINS_URL is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".isPR does not validate when ghprbPullId is missing",
@@ -1165,20 +1066,17 @@
           "title": "does not validate when ghprbPullId is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when ghprbGhRepository is missing",
+          "fullName":
+            ".isPR does not validate when ghprbGhRepository is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when ghprbGhRepository is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".isPR needs to have a PR number",
@@ -1187,9 +1085,7 @@
           "title": "needs to have a PR number"
         },
         {
-          "ancestorTitles": [
-            ".pullRequestID"
-          ],
+          "ancestorTitles": [".pullRequestID"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".pullRequestID pulls it out of environment",
@@ -1198,9 +1094,7 @@
           "title": "pulls it out of environment"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".repoSlug pulls it out of environment",
@@ -1230,34 +1124,31 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_buildkite.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_buildkite.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "being found when looking for CI"
-          ],
+          "ancestorTitles": ["being found when looking for CI"],
           "duration": 4,
           "failureMessages": [],
-          "fullName": "being found when looking for CI finds Buildkite with the right ENV",
+          "fullName":
+            "being found when looking for CI finds Buildkite with the right ENV",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "finds Buildkite with the right ENV"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": ".isCI validates when all Buildkite environment vars are set",
+          "fullName":
+            ".isCI validates when all Buildkite environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all Buildkite environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 2,
           "failureMessages": [],
           "fullName": ".isCI does not validate without env",
@@ -1266,20 +1157,17 @@
           "title": "does not validate without env"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 3,
           "failureMessages": [],
-          "fullName": ".isPR validates when all buildkite environment vars are set",
+          "fullName":
+            ".isPR validates when all buildkite environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all buildkite environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate outside of buildkite",
@@ -1288,20 +1176,17 @@
           "title": "does not validate outside of buildkite"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 2,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when BUILDKITE_PULL_REQUEST is missing",
+          "fullName":
+            ".isPR does not validate when BUILDKITE_PULL_REQUEST is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when BUILDKITE_PULL_REQUEST is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".isPR does not validate when BUILDKITE_REPO is missing",
@@ -1310,9 +1195,7 @@
           "title": "does not validate when BUILDKITE_REPO is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate when BUILDKITE is missing",
@@ -1321,9 +1204,7 @@
           "title": "does not validate when BUILDKITE is missing"
         },
         {
-          "ancestorTitles": [
-            ".pullRequestID"
-          ],
+          "ancestorTitles": [".pullRequestID"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".pullRequestID pulls it out of the env",
@@ -1332,9 +1213,7 @@
           "title": "pulls it out of the env"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 6,
           "failureMessages": [],
           "fullName": ".repoSlug derives it from the repo URL",
@@ -1343,9 +1222,7 @@
           "title": "derives it from the repo URL"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".repoSlug derives it from the repo URL in SSH format",
@@ -1375,34 +1252,31 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_dockerCloud.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_dockerCloud.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "being found when looking for CI"
-          ],
+          "ancestorTitles": ["being found when looking for CI"],
           "duration": 4,
           "failureMessages": [],
-          "fullName": "being found when looking for CI finds DockerCloud with the right ENV",
+          "fullName":
+            "being found when looking for CI finds DockerCloud with the right ENV",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "finds DockerCloud with the right ENV"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isCI validates when all DockerCloud environment vars are set",
+          "fullName":
+            ".isCI validates when all DockerCloud environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all DockerCloud environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isCI does not validate without env",
@@ -1411,20 +1285,17 @@
           "title": "does not validate without env"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR validates when all dockerCloud environment vars are set",
+          "fullName":
+            ".isPR validates when all dockerCloud environment vars are set",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "validates when all dockerCloud environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate outside of dockerCloud",
@@ -1433,31 +1304,27 @@
           "title": "does not validate outside of dockerCloud"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when PULL_REQUEST_URL is missing",
+          "fullName":
+            ".isPR does not validate when PULL_REQUEST_URL is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when PULL_REQUEST_URL is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when SOURCE_REPOSITORY_URL is missing",
+          "fullName":
+            ".isPR does not validate when SOURCE_REPOSITORY_URL is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when SOURCE_REPOSITORY_URL is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".isPR does not validate when DOCKER_REPO is missing",
@@ -1466,9 +1333,7 @@
           "title": "does not validate when DOCKER_REPO is missing"
         },
         {
-          "ancestorTitles": [
-            ".pullRequestID"
-          ],
+          "ancestorTitles": [".pullRequestID"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".pullRequestID pulls it out of the env",
@@ -1477,9 +1342,7 @@
           "title": "pulls it out of the env"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".repoSlug derives it from the PR Url",
@@ -1509,45 +1372,43 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/commands/utils/_tests/file-utils.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/commands/utils/_tests/file-utils.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "dangerfilePath"
-          ],
+          "ancestorTitles": ["dangerfilePath"],
           "duration": 5,
           "failureMessages": [],
-          "fullName": "dangerfilePath should return anything passed into the program's dangerfile",
+          "fullName":
+            "dangerfilePath should return anything passed into the program's dangerfile",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should return anything passed into the program's dangerfile"
         },
         {
-          "ancestorTitles": [
-            "dangerfilePath"
-          ],
+          "ancestorTitles": ["dangerfilePath"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "dangerfilePath should find a dangerfile.js if there is no program, and the .js file exists",
+          "fullName":
+            "dangerfilePath should find a dangerfile.js if there is no program, and the .js file exists",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "should find a dangerfile.js if there is no program, and the .js file exists"
+          "title":
+            "should find a dangerfile.js if there is no program, and the .js file exists"
         },
         {
-          "ancestorTitles": [
-            "dangerfilePath"
-          ],
+          "ancestorTitles": ["dangerfilePath"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": "dangerfilePath should find a dangerfile.ts if there is no program, and the .js file does not exist",
+          "fullName":
+            "dangerfilePath should find a dangerfile.ts if there is no program, and the .js file does not exist",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "should find a dangerfile.ts if there is no program, and the .js file does not exist"
+          "title":
+            "should find a dangerfile.ts if there is no program, and the .js file does not exist"
         },
         {
-          "ancestorTitles": [
-            "dangerfilePath"
-          ],
+          "ancestorTitles": ["dangerfilePath"],
           "duration": 1,
           "failureMessages": [],
           "fullName": "dangerfilePath should raise if nothing exists",
@@ -1577,12 +1438,11 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_pull_request_parser.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_pull_request_parser.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "parsing urls"
-          ],
+          "ancestorTitles": ["parsing urls"],
           "duration": 4,
           "failureMessages": [],
           "fullName": "parsing urls handles bad data",
@@ -1591,9 +1451,7 @@
           "title": "handles bad data"
         },
         {
-          "ancestorTitles": [
-            "parsing urls"
-          ],
+          "ancestorTitles": ["parsing urls"],
           "duration": 2,
           "failureMessages": [],
           "fullName": "parsing urls pulls out the repo / pr ID",
@@ -1602,9 +1460,7 @@
           "title": "pulls out the repo / pr ID"
         },
         {
-          "ancestorTitles": [
-            "parsing urls"
-          ],
+          "ancestorTitles": ["parsing urls"],
           "duration": 2,
           "failureMessages": [],
           "fullName": "parsing urls handles query params too",
@@ -1634,23 +1490,21 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_drone.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/ci_source/providers/_tests/_drone.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "being found when looking for CI"
-          ],
+          "ancestorTitles": ["being found when looking for CI"],
           "duration": 4,
           "failureMessages": [],
-          "fullName": "being found when looking for CI finds Drone with the right ENV",
+          "fullName":
+            "being found when looking for CI finds Drone with the right ENV",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "finds Drone with the right ENV"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".isCI validates when all Drone environment vars are set",
@@ -1659,9 +1513,7 @@
           "title": "validates when all Drone environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isCI"
-          ],
+          "ancestorTitles": [".isCI"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isCI does not validate without DRONE",
@@ -1670,9 +1522,7 @@
           "title": "does not validate without DRONE"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 2,
           "failureMessages": [],
           "fullName": ".isPR validates when all Drone environment vars are set",
@@ -1681,9 +1531,7 @@
           "title": "validates when all Drone environment vars are set"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate without DRONE_PULL_REQUEST",
@@ -1692,20 +1540,17 @@
           "title": "does not validate without DRONE_PULL_REQUEST"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": ".isPR does not validate when DRONE_PULL_REQUEST is missing",
+          "fullName":
+            ".isPR does not validate when DRONE_PULL_REQUEST is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "does not validate when DRONE_PULL_REQUEST is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 1,
           "failureMessages": [],
           "fullName": ".isPR does not validate when DRONE_REPO is missing",
@@ -1714,9 +1559,7 @@
           "title": "does not validate when DRONE_REPO is missing"
         },
         {
-          "ancestorTitles": [
-            ".isPR"
-          ],
+          "ancestorTitles": [".isPR"],
           "duration": 0,
           "failureMessages": [],
           "fullName": ".isPR needs to have a PR number",
@@ -1725,9 +1568,7 @@
           "title": "needs to have a PR number"
         },
         {
-          "ancestorTitles": [
-            ".pullRequestID"
-          ],
+          "ancestorTitles": [".pullRequestID"],
           "duration": 2,
           "failureMessages": [],
           "fullName": ".pullRequestID pulls it out of the env",
@@ -1736,9 +1577,7 @@
           "title": "pulls it out of the env"
         },
         {
-          "ancestorTitles": [
-            ".repoSlug"
-          ],
+          "ancestorTitles": [".repoSlug"],
           "duration": 6,
           "failureMessages": [],
           "fullName": ".repoSlug pulls it out of the env",
@@ -1768,12 +1607,11 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_github_utils.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/platforms/github/_tests/_github_utils.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "fileLinks"
-          ],
+          "ancestorTitles": ["fileLinks"],
           "duration": 9,
           "failureMessages": [],
           "fullName": "fileLinks Should convert a few paths into links",
@@ -1782,26 +1620,25 @@
           "title": "Should convert a few paths into links"
         },
         {
-          "ancestorTitles": [
-            "fileLinks"
-          ],
+          "ancestorTitles": ["fileLinks"],
           "duration": 0,
           "failureMessages": [],
-          "fullName": "fileLinks Should convert a few paths into links showing full links",
+          "fullName":
+            "fileLinks Should convert a few paths into links showing full links",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "Should convert a few paths into links showing full links"
         },
         {
-          "ancestorTitles": [
-            "fileLinks"
-          ],
+          "ancestorTitles": ["fileLinks"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "fileLinks Should convert a few paths into links showing full link on a custom fork/branch",
+          "fullName":
+            "fileLinks Should convert a few paths into links showing full link on a custom fork/branch",
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "Should convert a few paths into links showing full link on a custom fork/branch"
+          "title":
+            "Should convert a few paths into links showing full link on a custom fork/branch"
         }
       ],
       "sourceMaps": {},
@@ -1825,23 +1662,21 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/platforms/_tests/_github.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/platforms/_tests/_github.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 17,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should return the correct review title from getReviewInfo",
+          "fullName":
+            "getPlatformDSLRepresentation should return the correct review title from getReviewInfo",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should return the correct review title from getReviewInfo"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 2,
           "failureMessages": [],
           "fullName": "getPlatformDSLRepresentation should get the issue label",
@@ -1850,20 +1685,17 @@
           "title": "should get the issue label"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 6,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should get the commits of the pull request",
+          "fullName":
+            "getPlatformDSLRepresentation should get the commits of the pull request",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should get the commits of the pull request"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 9,
           "failureMessages": [],
           "fullName": "getPlatformDSLRepresentation should get the reviews",
@@ -1872,23 +1704,21 @@
           "title": "should get the reviews"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 4,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should get the reviewer requests",
+          "fullName":
+            "getPlatformDSLRepresentation should get the reviewer requests",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should get the reviewer requests"
         },
         {
-          "ancestorTitles": [
-            "getPlatformDSLRepresentation"
-          ],
+          "ancestorTitles": ["getPlatformDSLRepresentation"],
           "duration": 4,
           "failureMessages": [],
-          "fullName": "getPlatformDSLRepresentation should get the pull request informations",
+          "fullName":
+            "getPlatformDSLRepresentation should get the pull request informations",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should get the pull request informations"
@@ -1915,12 +1745,11 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/runner/_tests/_danger_utils.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/runner/_tests/_danger_utils.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "sentence()"
-          ],
+          "ancestorTitles": ["sentence()"],
           "duration": 2,
           "failureMessages": [],
           "fullName": "sentence() handles falsy input",
@@ -1929,9 +1758,7 @@
           "title": "handles falsy input"
         },
         {
-          "ancestorTitles": [
-            "sentence()"
-          ],
+          "ancestorTitles": ["sentence()"],
           "duration": 1,
           "failureMessages": [],
           "fullName": "sentence() handles empty array",
@@ -1940,9 +1767,7 @@
           "title": "handles empty array"
         },
         {
-          "ancestorTitles": [
-            "sentence()"
-          ],
+          "ancestorTitles": ["sentence()"],
           "duration": 1,
           "failureMessages": [],
           "fullName": "sentence() handles array with one item",
@@ -1951,9 +1776,7 @@
           "title": "handles array with one item"
         },
         {
-          "ancestorTitles": [
-            "sentence()"
-          ],
+          "ancestorTitles": ["sentence()"],
           "duration": 0,
           "failureMessages": [],
           "fullName": "sentence() handles array with multiple items",
@@ -1962,9 +1785,7 @@
           "title": "handles array with multiple items"
         },
         {
-          "ancestorTitles": [
-            "href()"
-          ],
+          "ancestorTitles": ["href()"],
           "duration": 0,
           "failureMessages": [],
           "fullName": "href() returns null when href and text are falsy",
@@ -1973,9 +1794,7 @@
           "title": "returns null when href and text are falsy"
         },
         {
-          "ancestorTitles": [
-            "href()"
-          ],
+          "ancestorTitles": ["href()"],
           "duration": 1,
           "failureMessages": [],
           "fullName": "href() returns just the text when the href is missing",
@@ -1984,20 +1803,17 @@
           "title": "returns just the text when the href is missing"
         },
         {
-          "ancestorTitles": [
-            "href()"
-          ],
+          "ancestorTitles": ["href()"],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "href() returns <a> tag with href as text when text is missing",
+          "fullName":
+            "href() returns <a> tag with href as text when text is missing",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "returns <a> tag with href as text when text is missing"
         },
         {
-          "ancestorTitles": [
-            "href()"
-          ],
+          "ancestorTitles": ["href()"],
           "duration": 1,
           "failureMessages": [],
           "fullName": "href() returns <a> tag for supplied href and text",
@@ -2027,12 +1843,11 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "/Users/macklinu/dev/danger/danger-js/source/runner/_tests/_danger_runner.test.ts",
+      "testFilePath":
+        "/Users/macklinu/dev/danger/danger-js/source/runner/_tests/_danger_runner.test.ts",
       "testResults": [
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 6686,
           "failureMessages": [],
           "fullName": "with fixtures handles a blank Dangerfile",
@@ -2041,9 +1856,7 @@
           "title": "handles a blank Dangerfile"
         },
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 33,
           "failureMessages": [],
           "fullName": "with fixtures handles a full set of messages",
@@ -2052,9 +1865,7 @@
           "title": "handles a full set of messages"
         },
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 19,
           "failureMessages": [],
           "fullName": "with fixtures handles a failing dangerfile",
@@ -2063,9 +1874,7 @@
           "title": "handles a failing dangerfile"
         },
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 86,
           "failureMessages": [],
           "fullName": "with fixtures handles relative imports correctly",
@@ -2074,9 +1883,7 @@
           "title": "handles relative imports correctly"
         },
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 32,
           "failureMessages": [],
           "fullName": "with fixtures handles scheduled (async) code",
@@ -2085,20 +1892,17 @@
           "title": "handles scheduled (async) code"
         },
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 147,
           "failureMessages": [],
-          "fullName": "with fixtures handles multiple scheduled statements and all message types",
+          "fullName":
+            "with fixtures handles multiple scheduled statements and all message types",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "handles multiple scheduled statements and all message types"
         },
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 16,
           "failureMessages": [],
           "fullName": "with fixtures can schedule callback-based promised",
@@ -2107,9 +1911,7 @@
           "title": "can schedule callback-based promised"
         },
         {
-          "ancestorTitles": [
-            "with fixtures"
-          ],
+          "ancestorTitles": ["with fixtures"],
           "duration": 546,
           "failureMessages": [],
           "fullName": "with fixtures can handle TypeScript based Dangerfiles",
@@ -2118,31 +1920,27 @@
           "title": "can handle TypeScript based Dangerfiles"
         },
         {
-          "ancestorTitles": [
-            "cleaning Dangerfiles"
-          ],
+          "ancestorTitles": ["cleaning Dangerfiles"],
           "duration": 2,
           "failureMessages": [],
-          "fullName": "cleaning Dangerfiles Supports removing the danger import",
+          "fullName":
+            "cleaning Dangerfiles Supports removing the danger import",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "Supports removing the danger import"
         },
         {
-          "ancestorTitles": [
-            "cleaning Dangerfiles"
-          ],
+          "ancestorTitles": ["cleaning Dangerfiles"],
           "duration": 2,
           "failureMessages": [],
-          "fullName": "cleaning Dangerfiles also handles typescript style imports",
+          "fullName":
+            "cleaning Dangerfiles also handles typescript style imports",
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "also handles typescript style imports"
         },
         {
-          "ancestorTitles": [
-            "cleaning Dangerfiles"
-          ],
+          "ancestorTitles": ["cleaning Dangerfiles"],
           "duration": 0,
           "failureMessages": [],
           "fullName": "cleaning Dangerfiles also handles require style imports",
