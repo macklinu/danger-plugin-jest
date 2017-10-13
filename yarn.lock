@@ -4267,7 +4267,7 @@ vlq@^0.2.1:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.2.tgz#e316d5257b40b86bb43cb8d5fea5d7f54d6b0ca1"
 
-"vm2@github:patriksimek/vm2":
+vm2@patriksimek/vm2:
   version "3.5.2"
   resolved "https://codeload.github.com/patriksimek/vm2/tar.gz/d86dd69b69b394f2dc2cc6e8ce54f498d3eda270"
 
