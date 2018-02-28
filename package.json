@@ -35,7 +35,7 @@
     "strip-ansi": "^4.0.0"
   },
   "devDependencies": {
-    "@types/jest": "^21.1.2",
+    "@types/jest": "^22.1.4",
     "@types/node": "^8.0.37",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
