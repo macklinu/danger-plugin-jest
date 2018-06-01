@@ -55,7 +55,7 @@
     "validate-commit-msg": "^2.12.1"
   },
   "optionalDependencies": {
-    "serve": "^5.1.5"
+    "serve": "^7.1.2"
   },
   "jest": {
     "testRegex": ".*\\.test\\.ts$",
