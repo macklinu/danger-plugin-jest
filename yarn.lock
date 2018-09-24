@@ -69,9 +69,9 @@
   version "7.0.22"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.22.tgz#4593f4d828bdd612929478ea40c67b4f403ca255"
 
-"@types/node@^8.0.37":
-  version "8.0.37"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.37.tgz#d5b1bbc942915f20f4d83ea04a2aba1df7ac9d5f"
+"@types/node@^10.11.0":
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.11.0.tgz#ddd0d67a3b6c3810dd1a59e36675fa82de5e19ae"
 
 "@types/shelljs@^0.7.0":
   version "0.7.1"
