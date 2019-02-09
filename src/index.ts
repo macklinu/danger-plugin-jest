@@ -75,15 +75,13 @@ const presentErrorsForNewStyleResults = (jsonResults: IJestTestResults) => {
 // e.g. https://github.com/orta/danger-plugin-jest/blob/master/src/__tests__/fails.test.ts
 const linkToTest = (file: string, msg: string, title: string) => {
   const line = lineOfError(msg, file);
+  const githubRoot = danger.github.pr.head.repo.html_url.split(
+    danger.github.pr.head.repo.owner.login
+  )[0];
   const repo = danger.github.pr.head.repo;
-  const urlParts = [
-    "https://github.com",
-    repo.full_name,
-    "blob",
-    danger.github.pr.head.ref,
-    `${file}${"line" ? "#L" + line : ""}`
-  ];
-  return `<a href='${urlParts.join("/")}'>${title}</a>`;
+  const url = `${githubRoot}${repo.full_name}/blob/${danger.github.pr.head
+    .ref}/${file}${"line" ? "#L" + line : ""}`;
+  return `<a href='${url}'>${title}</a>`;
 };
 
 const assertionFailString = (
