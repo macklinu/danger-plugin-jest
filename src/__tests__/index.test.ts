@@ -14,8 +14,8 @@ beforeEach(() => {
         head: {
           ref: "branch",
           repo: {
-            html_url: "https://github.com/user",
             full_name: "repo/slug",
+            html_url: "https://github.com/user",
             owner: {
               login: "user"
             }
