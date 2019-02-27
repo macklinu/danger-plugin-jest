@@ -20,13 +20,11 @@ export default function jest(config: Partial<IPluginConfig> = {}) {
   try {
     const jsonFileContents = fs.readFileSync(testResultsJsonPath, "utf8");
     const jsonResults: IJestTestResults = JSON.parse(jsonFileContents);
-    // console.log(jsonResults)
     if (jsonResults.success) {
       // tslint:disable-next-line:no-console
       console.log("Jest tests passed :+1:");
       return;
     }
-    // console.log(1)
 
     const isModernFormatResults = jsonResults.testResults[0].testResults;
     if (isModernFormatResults) {
@@ -112,6 +110,7 @@ ${status.failureMessages && stripANSI(status.failureMessages.join("\n"))}
 `;
 
 const fileToFailString = (
+  // tslint:disable-next-line:no-shadowed-variable
   path: string,
   failedAssertions: IInsideFileTestResults[]
 ): string => `
