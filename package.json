@@ -54,9 +54,6 @@
     "typescript": "^2.5.3",
     "validate-commit-msg": "^2.12.1"
   },
-  "optionalDependencies": {
-    "serve": "^5.1.5"
-  },
   "jest": {
     "testRegex": ".*\\.test\\.ts$",
     "transform": {
