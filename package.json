@@ -15,9 +15,6 @@
     "build": "tsc -p tsconfig.json",
     "lint": "tslint 'src/**/*.ts' -c tslint.json -p tsconfig.json",
     "test": "jest",
-    "docs": "typedoc --theme minimal --out docs src/index.ts",
-    "docs:serve": "npm run docs && serve docs",
-    "docs:deploy": "npm run docs && node scripts/deploy-docs.js",
     "prepublish": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -54,8 +51,6 @@
     "ts-jest": "^21.1.2",
     "tslint": "^5.13.0",
     "tslint-config-prettier": "^1.18.0",
-    "typedoc": "^0.7.1",
-    "typedoc-plugin-external-module-name": "^1.0.9",
     "typescript": "^2.5.3",
     "validate-commit-msg": "^2.12.1"
   },
