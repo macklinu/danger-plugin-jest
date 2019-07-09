@@ -14,7 +14,11 @@ beforeEach(() => {
         head: {
           ref: "branch",
           repo: {
-            full_name: "repo/slug"
+            full_name: "repo/slug",
+            html_url: "https://github.com/user",
+            owner: {
+              login: "user"
+            }
           }
         }
       },
@@ -51,6 +55,30 @@ test("warns when test results JSON file cannot be read", () => {
     testResultsJsonPath: fixture("nonexistent.json")
   });
   expect(global["fail"]).toHaveBeenCalled();
+});
+
+test("can create links for github", () => {
+  jestResults({
+    testResultsJsonPath: fixture("failing-tests.json")
+  });
+  expect(global["fail"]).toHaveBeenCalledWith(
+    expect.stringMatching(
+      /https:\/\/github.com\/repo\/slug\/blob\/branch\/(.*)?\/file-utils.test.ts#L24/
+    )
+  );
+});
+
+test("can create links for hosted github", () => {
+  global["danger"].github.pr.head.repo.html_url =
+    "https://mydomain.github.com/user";
+  jestResults({
+    testResultsJsonPath: fixture("failing-tests.json")
+  });
+  expect(global["fail"]).toHaveBeenCalledWith(
+    expect.stringMatching(
+      /https:\/\/mydomain.github.com\/repo\/slug\/blob\/branch\/(.*)?\/file-utils.test.ts#L24/
+    )
+  );
 });
 
 test.skip("Fails 6", () => {
