@@ -21,7 +21,7 @@ beforeEach(() => {
         },
       },
       utils: {
-        fileLinks: a => a,
+        fileLinks: (a: any) => a,
       },
     },
   }
