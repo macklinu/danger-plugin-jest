@@ -29,13 +29,13 @@ By default, this package will assume you've set the filename as `test-results.js
 
 ```js
 // dangerfile.js
-import path from "path";
-import jest from "danger-plugin-jest";
+import path from 'path'
+import jest from 'danger-plugin-jest'
 
 // Default
-jest();
+jest()
 // Custom path
-jest({ testResultsJsonPath: path.resolve(__dirname, "tests/results.json") });
+jest({ testResultsJsonPath: path.resolve(__dirname, 'tests/results.json') })
 ```
 
 See [`src/index.ts`](https://github.com/macklinu/danger-plugin-jest/blob/master/src/index.ts) for more details.
