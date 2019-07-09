@@ -14,7 +14,7 @@ script:
   - yarn run test -- --coverage --outputFile test-results.json --json
   - yarn run lint
   - yarn run build
-  - yarn run danger
+  - npx danger ci
   - rm -f test-results.json
 after_success:
   - npm run semantic-release
