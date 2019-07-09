@@ -38,7 +38,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/node": "^8.0.37",
-    "danger": "^2.0.0-alpha.19",
+    "danger": "^9.0.3",
     "eslint": "^6.0.1",
     "eslint-config-macklinu": "^2.0.1",
     "husky": "^0.14.3",
