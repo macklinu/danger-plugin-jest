@@ -10,7 +10,6 @@
   "scripts": {
     "precommit": "lint-staged",
     "prepush": "npm run test",
-    "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
     "build": "tsc -p tsconfig.json",
     "lint": "eslint 'src/**/*.ts'",
@@ -39,8 +38,6 @@
   "devDependencies": {
     "@types/jest": "^21.1.2",
     "@types/node": "^8.0.37",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0",
     "danger": "^2.0.0-alpha.19",
     "eslint": "^6.0.1",
     "eslint-config-macklinu": "^2.0.1",
@@ -63,11 +60,6 @@
       "ts",
       "js"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   },
   "lint-staged": {
     "src/**/*.ts": [
