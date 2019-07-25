@@ -11,6 +11,7 @@ import {
 } from './types'
 declare var danger: DangerDSLType
 declare function fail(message?: string): void
+declare function message(message?: string): void
 
 export interface IPluginConfig {
   testResultsJsonPath: string
@@ -22,8 +23,7 @@ export default function jest(config: Partial<IPluginConfig> = {}) {
     const jsonFileContents = fs.readFileSync(testResultsJsonPath, 'utf8')
     const jsonResults: IJestTestResults = JSON.parse(jsonFileContents)
     if (jsonResults.success) {
-      // tslint:disable-next-line:no-console
-      console.log('Jest tests passed :+1:')
+      message(`:+1: Jest tests passed: ${jsonResults.numPassedTests}/${jsonResults.numTotalTests}`)
       return
     }
 
