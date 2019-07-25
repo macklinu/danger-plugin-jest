@@ -34,7 +34,7 @@ test('no fails with passing test results', () => {
   expect(global['fail']).not.toHaveBeenCalled()
 })
 
-test('message with passing test results', () => {
+test('passing test results with visible success message', () => {
   jestResults({
     testResultsJsonPath: fixture('passing-tests.json'),
     showSuccessMessage: true,
@@ -42,6 +42,13 @@ test('message with passing test results', () => {
   expect(global['message']).toHaveBeenCalledWith(
     expect.stringMatching(/Jest tests passed/)
   )
+})
+
+test('passing test results without visible success message', () => {
+  jestResults({
+    testResultsJsonPath: fixture('passing-tests.json'),
+  })
+  expect(global['message']).not.toHaveBeenCalled()
 })
 
 test('fails with failing test results', () => {

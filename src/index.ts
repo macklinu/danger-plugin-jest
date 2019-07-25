@@ -55,7 +55,7 @@ const jestSuccessFeedback = (
     console.log(':+1: Jest tests passed')
   } else {
     message(
-      `:+1: Jest tests passed: ${jsonResults.numPassedTests}/${jsonResults.numTotalTests}`
+      `:+1: Jest tests passed: ${jsonResults.numPassedTests}/${jsonResults.numTotalTests} (${jsonResults.numPendingTests} skipped)`
     )
   }
 }
