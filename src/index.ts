@@ -23,7 +23,9 @@ export default function jest(config: Partial<IPluginConfig> = {}) {
     const jsonFileContents = fs.readFileSync(testResultsJsonPath, 'utf8')
     const jsonResults: IJestTestResults = JSON.parse(jsonFileContents)
     if (jsonResults.success) {
-      message(`:+1: Jest tests passed: ${jsonResults.numPassedTests}/${jsonResults.numTotalTests}`)
+      message(
+        `:+1: Jest tests passed: ${jsonResults.numPassedTests}/${jsonResults.numTotalTests}`
+      )
       return
     }
 

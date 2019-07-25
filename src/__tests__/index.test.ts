@@ -27,11 +27,20 @@ beforeEach(() => {
   }
 })
 
-test('messages with passing test results', () => {
+test('no fails with passing test results', () => {
   jestResults({
     testResultsJsonPath: fixture('passing-tests.json'),
   })
   expect(global['fail']).not.toHaveBeenCalled()
+})
+
+test('message with passing test results', () => {
+  jestResults({
+    testResultsJsonPath: fixture('passing-tests.json'),
+  })
+  expect(global['message']).toHaveBeenCalledWith(
+    expect.stringMatching(/Jest tests passed/)
+  )
 })
 
 test('fails with failing test results', () => {
