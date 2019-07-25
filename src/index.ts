@@ -15,17 +15,19 @@ declare function message(message?: string): void
 
 export interface IPluginConfig {
   testResultsJsonPath: string
+  showSuccessMessage: boolean
 }
 
 export default function jest(config: Partial<IPluginConfig> = {}) {
-  const { testResultsJsonPath = 'test-results.json' } = config
+  const {
+    testResultsJsonPath = 'test-results.json',
+    showSuccessMessage = false,
+  } = config
   try {
     const jsonFileContents = fs.readFileSync(testResultsJsonPath, 'utf8')
     const jsonResults: IJestTestResults = JSON.parse(jsonFileContents)
     if (jsonResults.success) {
-      message(
-        `:+1: Jest tests passed: ${jsonResults.numPassedTests}/${jsonResults.numTotalTests}`
-      )
+      jestSuccessFeedback(jsonResults, showSuccessMessage)
       return
     }
 
@@ -40,6 +42,20 @@ export default function jest(config: Partial<IPluginConfig> = {}) {
     console.error(e)
     fail(
       '[danger-plugin-jest] Could not read test results. Danger cannot pass or fail the build.'
+    )
+  }
+}
+
+const jestSuccessFeedback = (
+  jsonResults: IJestTestResults,
+  showSuccessMessage: boolean
+): void => {
+  if (!showSuccessMessage) {
+    // tslint:disable-next-line:no-console
+    console.log(':+1: Jest tests passed')
+  } else {
+    message(
+      `:+1: Jest tests passed: ${jsonResults.numPassedTests}/${jsonResults.numTotalTests}`
     )
   }
 }
