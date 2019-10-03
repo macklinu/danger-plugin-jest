@@ -103,3 +103,12 @@ export interface IJestTestOldResults {
   testResults: ITestResult[]
   wasInterrupted: boolean
 }
+
+export interface ITestResultReporter {
+  jestSuccessFeedback: (
+    jsonResults: IJestTestResults,
+    showSuccessMessage: boolean
+  ) => void
+  presentErrorsForOldStyleResults: (jsonResults: IJestTestOldResults) => void
+  presentErrorsForNewStyleResults: (jsonResults: IJestTestResults) => void
+}
