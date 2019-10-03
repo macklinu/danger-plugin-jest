@@ -8,12 +8,13 @@ import {
 import { DangerDSLType } from '../../node_modules/danger/distribution/dsl/DangerDSL'
 import * as path from 'path'
 import * as stripANSI from 'strip-ansi'
+import ReporterHelper from '../ReporterHelper'
 
 declare var danger: DangerDSLType
 declare function fail(message?: string): void
 declare function message(message?: string): void
 
-const GithubTestResultReporter: ITestResultReporter = {
+const GithubReporter: ITestResultReporter = {
   jestSuccessFeedback: (
     jsonResults: IJestTestResults,
     showSuccessMessage: boolean
@@ -61,7 +62,7 @@ const GithubTestResultReporter: ITestResultReporter = {
 
 // e.g. https://github.com/orta/danger-plugin-jest/blob/master/src/__tests__/fails.test.ts
 const linkToTest = (file: string, msg: string, title: string) => {
-  const line = lineOfError(msg, file)
+  const line = ReporterHelper.lineOfError(msg, file)
   const githubRoot = danger.github.pr.head.repo.html_url.split(
     danger.github.pr.head.repo.owner.login
   )[0]
@@ -83,7 +84,7 @@ const assertionFailString = (
     status.title
   )}
   <br/>
-  ${sanitizeShortErrorMessage(
+  ${ReporterHelper.sanitizeShortErrorMessage(
     status.failureMessages && stripANSI(status.failureMessages[0])
   )}
   
@@ -107,27 +108,4 @@ const fileToFailString = (
   ${failedAssertions.map(a => assertionFailString(path, a)).join('\n\n')}
   `
 
-const lineOfError = (msg: string, filePath: string): number | null => {
-  const filename = path.basename(filePath)
-  const restOfTrace = msg.split(filename, 2)[1]
-  return restOfTrace ? parseInt(restOfTrace.split(':')[1], 10) : null
-}
-
-const sanitizeShortErrorMessage = (msg: string): string => {
-  if (msg.includes('does not match stored snapshot')) {
-    return 'Snapshot has changed'
-  }
-
-  return msg
-    .split('   at', 1)[0]
-    .trim()
-    .split('\n')
-    .splice(2)
-    .join('')
-    .replace(/\s\s+/g, ' ')
-    .replace('Received:', ', received:')
-    .replace('., received', ', received')
-    .split('Difference:')[0]
-}
-
-export default GithubTestResultReporter
+export default GithubReporter

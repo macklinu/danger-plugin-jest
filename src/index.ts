@@ -2,7 +2,8 @@ import * as fs from 'fs'
 
 import { IJestTestResults, ITestResultReporter } from './types'
 
-import GithubTestResultReporter from './reporters/GithubTestResultReporter'
+import GithubReporter from './reporters/GithubReporter'
+import BitbucketCloudReporter from './reporters/BitbucketCloudReporter'
 
 declare function fail(message?: string): void
 
@@ -12,11 +13,13 @@ export interface IPluginConfig {
   reporter?: ITestResultReporter
 }
 
+export { GithubReporter, BitbucketCloudReporter }
+
 export default function jest(config: Partial<IPluginConfig> = {}) {
   const {
     testResultsJsonPath = 'test-results.json',
     showSuccessMessage = false,
-    reporter = GithubTestResultReporter,
+    reporter = GithubReporter,
   } = config
   try {
     const jsonFileContents = fs.readFileSync(testResultsJsonPath, 'utf8')
