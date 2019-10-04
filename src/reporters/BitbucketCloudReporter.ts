@@ -11,6 +11,8 @@ import * as stripANSI from 'strip-ansi'
 import ReporterHelper from '../ReporterHelper'
 
 declare var danger: DangerDSLType
+declare function fail(message?: string): void
+declare function message(message?: string): void
 declare function markdown(message?: string): void
 
 const BitbucketCloudReporter: ITestResultReporter = {
@@ -72,18 +74,11 @@ const initialFailingMessage = () => {
 
 const linkToTest = (file: string, msg: string, title: string) => {
   var line = ReporterHelper.lineOfError(msg, file)
-  return (
-    'Case: [' +
-    title +
-    '](https://bitbucket.org/' +
-    danger.bitbucket_cloud.pr.source.repository.full_name +
-    '/src/' +
-    danger.bitbucket_cloud.pr.source.commit.hash +
-    '/' +
-    file +
-    (line ? '#lines-' + line : '') +
-    ')'
-  )
+  return `Case: [${title}](https://bitbucket.org/${
+    danger.bitbucket_cloud.pr.source.repository.full_name
+  }/src/${danger.bitbucket_cloud.pr.source.commit.hash}/${file}${
+    line ? `#lines-${line}` : ''
+  })`
 }
 
 const assertionFailString = (
