@@ -36,6 +36,11 @@ import jest from 'danger-plugin-jest'
 jest()
 // Custom path
 jest({ testResultsJsonPath: path.resolve(__dirname, 'tests/results.json') })
+
+// BitbucketCloud
+import jest, { BitbucketCloudReporter } from 'danger-plugin-jest'
+
+jest({ reporter: BitbucketCloudReporter })
 ```
 
 See [`src/index.ts`](https://github.com/macklinu/danger-plugin-jest/blob/master/src/index.ts) for more details.
