@@ -127,14 +127,44 @@ ${status.failureMessages && stripANSI(status.failureMessages.join('\n'))}
 <br/>
 `
 
+const assertionFailStringForBitbucket = (
+  status: IInsideFileTestResults
+): string => `
+* ${sanitizeShortErrorMessage(
+  status.failureMessages && stripANSI(status.failureMessages[0])
+)}
+\`\`\`
+${status.failureMessages && stripANSI(status.failureMessages.join('\n'))}
+\`\`\`
+`
+const getLinkToBitbucketFile = (fileName: string): string => {
+  const url = `${process.env.DANGER_BITBUCKETSERVER_HOST}/${
+    danger.bitbucket_server.metadata.repoSlug
+  }/browse/${fileName}'?at=${encodeURIComponent(
+    danger.bitbucket_server.pr.fromRef.id
+  )}`
+  return `[${fileName}](${url})`
+}
 const fileToFailString = (
   // tslint:disable-next-line:no-shadowed-variable
   path: string,
   failedAssertions: IInsideFileTestResults[]
 ): string => `
-<b>🃏 FAIL</b> in ${danger.github.utils.fileLinks([path])}
+${
+  process.env.DANGER_BITBUCKETSERVER_HOST ? '**🃏 FAIL**' : '<b>🃏 FAIL</b>'
+} in ${
+  process.env.DANGER_BITBUCKETSERVER_HOST
+    ? getLinkToBitbucketFile(path)
+    : danger.github.utils.fileLinks([path])
+}
 
-${failedAssertions.map(a => assertionFailString(path, a)).join('\n\n')}
+${failedAssertions
+  .map(a =>
+    process.env.DANGER_BITBUCKETSERVER_HOST
+      ? assertionFailStringForBitbucket(a)
+      : assertionFailString(path, a)
+  )
+  .join('\n\n')}
 `
 
 const lineOfError = (msg: string, filePath: string): number | null => {
