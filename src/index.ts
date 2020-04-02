@@ -140,7 +140,7 @@ ${status.failureMessages && stripANSI(status.failureMessages.join('\n'))}
 const getLinkToBitbucketFile = (fileName: string): string => {
   const url = `${process.env.DANGER_BITBUCKETSERVER_HOST}/${
     danger.bitbucket_server.metadata.repoSlug
-  }/browse/ + ${fileName}'?at=${encodeURIComponent(
+  }/browse/${fileName}'?at=${encodeURIComponent(
     danger.bitbucket_server.pr.fromRef.id
   )}`
   return `[${fileName}](${url})`
@@ -150,7 +150,9 @@ const fileToFailString = (
   path: string,
   failedAssertions: IInsideFileTestResults[]
 ): string => `
-<b>🃏 FAIL</b> in ${
+${
+  process.env.DANGER_BITBUCKETSERVER_HOST ? '**🃏 FAIL**' : '<b>🃏 FAIL</b>'
+} in ${
   process.env.DANGER_BITBUCKETSERVER_HOST
     ? getLinkToBitbucketFile(path)
     : danger.github.utils.fileLinks([path])
